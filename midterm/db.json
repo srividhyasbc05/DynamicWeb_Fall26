@@ -1,0 +1,114 @@
+{
+  "todos": [
+    {
+      "title": "cry",
+      "listId": "BzKngEkdJbw",
+      "done": true,
+      "id": "F0pc9F44_0Q"
+    }
+  ],
+  "widgets": [
+    {
+      "id": "KEfBL62Ep7M",
+      "type": "list",
+      "title": "One Thing",
+      "settings": {}
+    },
+    {
+      "id": "BzKngEkdJbw",
+      "type": "list",
+      "title": "die",
+      "settings": {}
+    }
+  ],
+  "style": {
+    "pageColor": "#013026",
+    "pageOpacity": 1,
+    "widgetColor": "#97CD97",
+    "widgetOpacity": 1,
+    "textColor": "#1e3a5f",
+    "fontFamily": "sans",
+    "headingSize": "md",
+    "headingWeight": "bold",
+    "bodySize": "md",
+    "bodyWeight": "normal"
+  },
+  "widgetContent": [
+    {
+      "id": "text-1",
+      "content": {
+        "text": ""
+      }
+    },
+    {
+      "id": "journal-1",
+      "content": {
+        "entries": []
+      }
+    }
+  ],
+  "templates": [
+    {
+      "id": "starter-deep-work",
+      "name": "Deep Work",
+      "widgets": [
+        {
+          "type": "timer",
+          "title": "Focus Timer",
+          "settings": {}
+        },
+        {
+          "type": "list",
+          "title": "One Thing",
+          "settings": {}
+        }
+      ],
+      "style": {
+        "pageColor": "#e8eef4",
+        "pageOpacity": 1,
+        "widgetColor": "#ffffff",
+        "widgetOpacity": 1,
+        "textColor": "#292929",
+        "fontFamily": "sans",
+        "headingSize": "md",
+        "headingWeight": "bold",
+        "bodySize": "md",
+        "bodyWeight": "normal"
+      }
+    },
+    {
+      "name": "2 lists",
+      "widgets": [
+        {
+          "type": "timer",
+          "title": "Focus Timer",
+          "settings": {}
+        },
+        {
+          "type": "list",
+          "title": "One Thing",
+          "settings": {}
+        },
+        {
+          "type": "list",
+          "title": "Dopamine menu",
+          "settings": {}
+        }
+      ],
+      "style": {
+        "pageColor": "#1f2430",
+        "pageOpacity": 1,
+        "widgetColor": "#faf5ec",
+        "widgetOpacity": 0.55,
+        "textColor": "#292929",
+        "fontFamily": "sans",
+        "headingSize": "md",
+        "headingWeight": "bold",
+        "bodySize": "md",
+        "bodyWeight": "normal"
+      },
+      "id": "8sMDzI5qqeA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
